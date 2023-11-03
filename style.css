@@ -95,7 +95,7 @@ h6 {
 	position: relative;
 }
 .banner {
-	background: linear-gradient(to left, #e55812, #e52b12);
+	background: linear-gradient(to left, #e52b12, #e55812);
 	padding: 100px 0px;
 	position:relative;
 }
@@ -184,7 +184,7 @@ h6 {
 	overflow: hidden;
 }
 .banner-overlay {
-	background: linear-gradient(to left, #e55812ce, #e52b12);
+	background: linear-gradient(to left, #e52b12, #e55812);
 }
 .banner2 h3 {
 	font-weight: 600;
@@ -241,7 +241,7 @@ h6 {
 }
 .banner3 {
 	background: #e55812;
-	background: linear-gradient(to left, #e55812, #e52b12);
+	background: linear-gradient(to left, #e52b12, #e55812);
 	padding:100px 0px;
 	position:relative;
 }
@@ -298,9 +298,10 @@ input {
 }
 
 .download {
-	background: #141323; 
+	background: #141323;
 	background: linear-gradient(to left, #141323, #141323);
-	padding:100px 0px;
+
+	padding: 100px 0px;
 	position:relative;
 }
 .download::before {
@@ -328,7 +329,7 @@ input {
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #ffffff;
+	background: #ffffff; 
 	color: #242424;
 	font-size: 13px;
 	text-align: center;
@@ -354,6 +355,8 @@ input {
 .navbar-brand img, .navbar-brand img .navbar-logo {
 	transform: scale(0.75) !important;
 	-webkit-transform: scale(0.75) !important;
+	position: relative; 
+	left: 37vw; 
 }
 
 .banner-text {
