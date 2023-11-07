@@ -179,12 +179,12 @@ h6 {
 }
 
 .banner2 {
-	background: url(./images/truck.png) no-repeat fixed center;
+	background: url(./images/Caminhões.jpg) no-repeat fixed center;
 	background-size: cover;
 	overflow: hidden;
 }
 .banner-overlay {
-	background: linear-gradient(to left, #e52b12, #e55812);
+	background: linear-gradient(to left, #e52b126b, #e55812);
 }
 .banner2 h3 {
 	font-weight: 600;
@@ -356,7 +356,7 @@ input {
 	transform: scale(0.75) !important;
 	-webkit-transform: scale(0.75) !important;
 	position: relative; 
-	left: 37vw; 
+	left: 36vw; 
 }
 
 .banner-text {
