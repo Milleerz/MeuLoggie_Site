@@ -1,115 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>MeuLoggie - Site</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="icon" href="./images/Logobig.png"> 
+  <title> MeuLoggie </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Font Google -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Chakra+Petch&family=Exo+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
+  <!--CssStyle-->
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+ 
 </head>
 
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+  
+<!--Navbar -->
+<nav class="navbar navbar-expand-lg" id="inicio">
   <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="./images/LogoMeuLoggie.png" alt="logo" class="logo-1" width="100px"> </a>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="0">Início</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">Sobre o MeuLoggie </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Perguntas frequentes</a> <li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Equipe</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Teste o app</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#interface" >Interface</a> <li></li>
+        <li class="nav-item"> <a class="nav-link" href="#sobre" >Sobre o MeuLoggie</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#teste" >Teste o APP</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#faq" >faq</a></li>
+        <li class="nav-item"> <a class="nav-link" href="#equipe" >Equipe</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#contato" >Contacte-nos</a> </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-------Banner1------->
-<section class="banner" data-scroll-index='0'>
+<!-------BannerInicio------->
+<section class="banner">
+  <div class="banner-overlay">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-12">
           <div class="banner-text">
-            <h2 class="white"> A solução ideal para a sua gestão de frota </h2>
+            <h2 class="white"> A solução ideal para a sua gestão de frota! </h2>
             <h6 class="white"> Compacto, moderno, inovador e inclusivo </h6>
-            <p class="banner-text white"> O Meu Loggie por meio de um dispositivo embarcado de interface moderna, rápida e intuitiva, visa tornar os processos logísticos mais acessíveis e ágeis para os colaboradores, através da otimização dos processos logísticos. 
-              </p>
+            <p class="banner-text white"> O Meu Loggie é um dispositivo embarcado com uma interface moderna, rápida e intuitiva, que visa tornar os processos logísticos mais acessíveis e ágeis para os colaboradores, através da otimização dos processos logísticos. 
+            </p>
+            <ul>
+              <li><a href="#galeria"> Desenvolvido por: <img src="./images/alttab_logo.png" alt="LogoEquipe"/></a></li>
+              
+            </ul>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12"> <img src="./images/Cell (1).png" class="img-fluid wow fadeInUp" width="300px" alt="ImagemCell"/> </div>
+        <div class="col-md-4 col-sm-12"> <img src="./images/Cell (1).png" class="img-fluid"/> </div>
       </div>
     </div>
-</section>
+  </div>
+ </section>
 
-<!-------Detalhamento MeuLoggie------->
-<section class="feature section-padding" data-scroll-index='2'>
-  <div class="container">
+<!-------Interface/Funcionalidades------->
+<section class="feature section-padding" >
+  <div class="container" id="interface">
     <div class="row">
       <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Sobre o MeuLoggie</h3>
+        <div class="sectioner-header text-center" >
+          <h3>Interface</h3>
           <span class="line"></span>
-          <p>A utilização do MeuLoggie traz uma série de benefícios, como por exemplo:  A substituição de uso do papel nas frotas, o efeito unificador centralizando as funcionalidades em apenas um software, garantia de registros fidedignos e fácil gerenciamento.</p>
+          <p>Com uma interface deslumbrante e funcional ao mesmo tempo, o MeuLoggie é uma verdadeira experiência que não só torna as tarefas mais fáceis, mas também faz com que você volte a usá-lo apenas pela satisfação de interagir com algo tão bem construído. <strong><br> Veja algumas de suas principais funcionalidades:</strong> </p>
         </div>
         <div class="section-content text-center">
           <div class="row">
             <div class="col-md-4 col-sm-12">
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+              <div class="media single-feature">
                 <div class="media-body text-right media-right-margin">
-                  <h5>Característica1</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                  <h5><strong>Quadro de avisos</strong></h5>
+                  <p>Enviar e registrar avisos que ficarão disponíveis para todos os funcionários que utilizam o Meu Loggie </p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
+                <div class="media-right icon-border"> <span class="fa fa-bolt"></span> </div>
               </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+              <div class="media single-feature" >
                 <div class="media-body text-right media-right-margin">
-                  <h5>Característica2</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                  <h5><strong>Leitor de placas</strong></h5>
+                  <p>O Meu Loggie possui um algoritmo que utiliza a câmera para identificar e ler o número da placa de um veículo, assim agilizando consultas e cadastros</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-battery-full" aria-hidden="true"></span> </div>
+                <div class="media-right icon-border"> <span class="fa fa-battery-full"></span> </div>
               </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+              <div class="media single-feature">
                 <div class="media-body text-right media-right-margin">
-                  <h5>Característica3</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                  <h5><strong>Lista de veículos cadastrados</strong></h5>
+                  <p>lista de veículos cadastrados para que os auxiliares de frota visualizem um pequeno relatório de cada veículo cadastrado</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
+                <div class="media-right icon-border"> <span class="fa fa-wifi"></span> </div>
               </div>
             </div>
             <div class="col-md-4 d-none d-md-block d-lg-block">
-              <div class="feature-mobile"> <img src="./images/Cell (1).png" class="img-fluid wow fadeInUp" alt="ImagemCell2"/> </div>
+              <div class="feature-mobile"> <img src="./images/Cell (1).png" class="img-fluid" alt="ImagemCell2"/> </div>
             </div>
             <div class="col-md-4 col-sm-12">
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double" aria-hidden="true"></span> </div>
+              <div class="media single-feature">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double"></span> </div>
                 <div class="media-body text-left">
-                  <h5>Característica4</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                 <h5><strong>Controle de Manutenção </strong></h5>
+                  <p>Os auxiliares de frota e motoristas podem cadastrar pedidos de manutenção preventiva ou corretiva</p>
                 </div>
               </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
+              <div class="media single-feature"">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign"></span> </div>
                 <div class="media-body text-left">
-                  <h5>Característica5</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                  <h5><strong>Chat </strong></h5>
+                  <p> (Em Desenvolvimento) Irá funcionar a partir da abertura de um serviço servindo para facilitar e agilizar a resolução de processos como Socorro em Rota e o agendamentos</p>
                 </div>
               </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-hdd" aria-hidden="true"></span> </div>
+              <div class="media single-feature">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-hdd"></span> </div>
                 <div class="media-body text-left">
-                  <h5>Característica6</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                  <h5><strong>Controle de Abastecimento</strong></h5>
+                  <p>Os motoristas podem registrar o abastecimento de seus veículos</p>
                 </div>
               </div>
             </div>
           </div>
+          <!--BotãoProtótipo-->
+          <a href="#" class="btn-interface">Protótipo do dispositivo</a> </div>
         </div>
       </div>
     </div>
@@ -117,90 +132,46 @@
 </section>
 
 <!-------Banner2------->
-<section class="banner2 prelative text-center white">
-  <div class="section-padding banner-overlay">
-  </div>
-</section>
-<!------- Perguntas ------->
-<section class="faq section-padding prelative" data-scroll-index='5'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Dúvidas frequentes</h3>
-          <span class="line"></span>
-          <p> Resposta para algumas perguntas feitas com frequência sobre o MeuLoggie, respondidas pela equipe desenvolvedora.</p>
-            <p> Caso permaneça alguma dúvida entre em contato conosco através do email: </p>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-              <h4>Como foi a idealização do MeuLoggie?</h4>
-              <p>Resposta - 1</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-              <h4>Pergunta - 2</h4>
-              <p>Resposta - 2</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-              <h4>Pergunta - 3</h4>
-              <p>Resposta - 3</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-              <h4>Pergunta - 4</h4>
-              <p>Resposta - 4</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-              <h4>Pergunta - 5</h4>
-              <p>Resposta - 5</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-              <h4>Pergunta - 6</h4>
-              <p>Resposta - 6</p>
-            </div>
-          </div>
-        </div>
-      </div>
+<section class="video-section prelative text-center white" id="sobre">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <p>MeuLoggie<br><strong>A solução ideal para sua gestão de frota!</strong></p>
     </div>
   </div>
 </section>
 
-<!-------Banner3------->
-<section class="banner3 section-padding" data-scroll-index='4'>
-</section>
-
-<!-------Equipe------->
-<section class="team section-padding" data-scroll-index='3'>
+<!-------Sobre------->
+<section class="about section-padding prelative">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="sectioner-header text-center">
-          <h3>Time desenvolvedor do projeto</h3>
+          <h3>Sobre o Meu Loggie</h3>
           <span class="line"></span>
-          <p>Projeto desenvolvido pela equipe AltTab</p>
+          <p>Principais benefícios gerados pela utilização do dispositivo</p>
         </div>
         <div class="section-content text-center">
           <div class="row">
             <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/Miller.jpeg" class="img-fluid"/>
-                <a href="https://www.linkedin.com/in/matheus-miller-10121a290/ " target="_blank"><h4>Matheus Miller</h4></a>
-                <p>Fullstack Developer</p>
+              <div class="icon-box"> <i class="fa fa-life-ring"></i>
+                <h5>Efeito Unificador</h5>
+                <p>Ao utilizar o dispositivo não será necessário outras aplicações substituindo a necessidade de uso do smartphone para registro ou envio de informações, também retirando a necessidade de utilização de papéis para controle e gestão de frota, tornando possível que a atuação dos gestores de frota seja mais rápida e eficaz.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/Lívia.png" class="img-fluid"/>
-                <a href="https://www.linkedin.com/in/l%C3%ADvia-cavalcante-a97a05212/" target="_blank"><h4>Lívia Cavalvante</h4></a>
-                <p>Monitora de Robótica Educacional</p>
+              <div class="icon-box"> <i class="fa fa-mobile"></i>
+                <h5>Segurança e Fidelidade</h5>
+                <p>O dispositivo substitui a utilização de papéis por questionários com respostas padronizadas, garantindo a geração de informações precisas e fidedignas tendo seus dados armazenados em nuvem através de um sistema de segurança próprio.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/paixon.png" class="img-fluid"/>
-                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-paix%C3%A3o-da-silva-310717269/" target="_blank" ><h4>João Pedro</h4></a>
-                <p>Monitor de Robótica Educacional</p>
+              <div class="icon-box"> <i class="fa fa-bolt""></i>
+                <h5>Redução de Custos</h5>
+                <p>Devido a sua gestão facilitada, torna possível que apenas um usuário consiga gerir os dados gerados através da interface de administrador, contribuindo assim para a diminuição de colaboradores e, consequentemente, para a redução de custos. 
+                </p>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
@@ -214,15 +185,14 @@
         <div class="sectioner-header text-center white">
           <h3>Teste o nosso app</h3>
           <span class="line"></span>
-          <p class="white"> <strong> Você pode participar do desenvolvimento do        MeuLoggie!<br></strong>
+          <p class="white"> <strong> Você pode participar do desenvolvimento do MeuLoggie!<br></strong>
             Apenas respondendo ao formulário de solicitação do apk para testagem. Dessa forma, iremos avaliar as respostas e posteriormente enviar o apk para download assim que possível, contamos com seu feedback. </p>
-          
         </div>
       </div>
       <div class="col-md-12">
         <div class="section-content text-center">
           <ul>
-            <li><a href="#"><img src="images/download.png" class="wow fadeInUp animated"  data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"></a></li>
+            <li><a href="#formulario"><img src="images/download.png" ></a></li>
           </ul>
         </div>
       </div>
@@ -230,15 +200,170 @@
   </div>
 </section>
 
-<!------- Final ------->
+<!-------DúvidasFrequentes------>
+<section class="faq section-padding prelative">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Dúvidas frequentes</h3>
+          <span class="line"></span>
+          <p> Respostas para as perguntas que podem surgir sobre a usabilidade do dispositivo, respondidas pela equipe desenvolvedora </p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 faq-content" >
+              <h4>O MeuLoggie é só um app?</h4>
+              <p>O MeuLoggie vai além de ser só um app, na verdade ele é um dispositivo com diversas funcionalidades que ficará alocado no veículo do usuário, dispositivo esse que contará com um software de gerenciamento logístico de interface amigável. O MeuLoggie é a combinação de praticidade e acessibilidade ideal para uma boa gestão logística. 
+              </p>
+            </div>  
+
+            <div class="col-md-6 faq-content">
+              <h4>Qual o principal diferencial do MeuLoggie em relação ao seus concorrentes?</h4>
+              <p>MeuLoggie é um produto muito promissor e inovador por focar na acessibilidade e segurança para todos os colaboradores em frota. O grande diferencial em relação aos outros softwares e sistemas no mercado é que MeuLoggie é um dispositivo que conta com um sistema de segurança próprio e armazenamento de dados em nuvem. </p>
+            </div>
+
+            <div class="col-md-6 faq-content">
+              <h4>A partir de qual problema o MeuLoggie foi idealizado?</h4>
+              <p>Nos dias atuais, situações como planilhas sendo alimentadas manualmente e colaboradores deixando ou tendo dificuldade de abrir e acompanhar processos são comuns, principalmente nas frotas. Diante a esses empecilhos torna-se quase impossível que a logística atinja seus objetivos efetivamente.
+              </p>
+            </div>
+            
+            <div class="col-md-6 faq-content">
+              <h4>Para qual setor o MeuLoggie é destinado?</h4>
+              <p>O MeuLoggie é destinado para o setor logístico, logo qualquer empresa que precise de um aprimoramento nos seus processos logísticos, ficará totalmente satisfeita com nosso produto.</p>
+            </div>
+            
+            <div class="col-md-6 faq-content">
+              <h4>Qual a principal função do MeuLoggie?</h4>
+              <p>A função principal é digitalizar processos logísticos nas frotas, através de um dispositivo embarcado que conta com uma interface moderna, intuitiva e rápida, armazenando dados em nuvem.</p>
+            </div>
+            
+            <div class="col-md-6 faq-content">
+              <h4>Como posso obter o MeuLoggie?</h4>
+              <p>No momento somente através do nosso site.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Equipe------->
+<div class="team">
+  <div class="container">
+        <div class="sectioner-header text-center">
+          <h3>Time de desenvolvedores</h3>
+          <span class="line"></span>
+          <p>Equipe AltTab <br> <strong>"Criando alternativas para o futuro."</strong></p>
+        </div>
+    </div>
+</div>
+<main class="cards">
+  <section class="card about">
+      <div class="icon">
+          <img class="img-people" src="./images/Miller.jpeg" alt="imgDevs1">
+      </div>
+      <h3>Matheus Miller</h3>
+      <span> Fullstack Developer no Centro de Inovação SESI</span>
+      <a href="https://www.linkedin.com/in/matheus-miller-10121a290/" target="_blank"><button>Linkedin</button></a>
+  </section>
+  <section class="card about">
+      <div class="icon">
+          <img class="img-people" src="./images/Lívia.png" alt="imgDevs2">
+      </div>
+      <h3>Lívia Cavalvante</h3>
+      <span>Monitora de Robótica Educacional no SESI Parangaba</span>
+      <a href="https://www.linkedin.com/in/l%C3%ADvia-cavalcante-a97a05212/" target="_blank"><button>Linkedin</button></a>
+  </section>
+  <section class="card about">
+      <div class="icon">
+          <img class="img-people" src="./images/paixon.png" alt="imgDevs3">
+      </div>
+      <h3>João Pedro</h3>
+      <span>Monitor de Robótica Educacional no SESI Parangaba</span>
+      <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-paix%C3%A3o-da-silva-310717269/" target="_blank"><button>Linkedin</button></a>
+  </section>
+  <section class="card about">
+    <div class="icon">
+        <img class="img-people" src="./images/getulio.png" alt="imgDevs4">
+    </div>
+    <h3>Getulio Vagner</h3>
+    <span>Instrutor no Senai</span>
+    <a href="https://www.linkedin.com/in/getulio-vagner-117341186/" target="_blank"><button>Linkedin</button></a>
+</section>
+</main>
+
+<!-------Galeria da equipe------->
+<section class="gallery section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Galeria AltTab</h3>
+          <p class="white"> "A amizade é um tesouro raro, forjado na sinceridade e na confiança mútua. É um laço que transcende o tempo e a distância, nutrido pela empatia, pelo apoio incondicional e pela cumplicidade. Na amizade, encontramos um refúgio seguro para compartilhar nossos sonhos, nossas alegrias e até mesmo nossas tristezas."
+          <br><i>- Autor desconhecido. </i>
+          <br>
+            <br><strong> Um pequeno vislumbre da nossa história 🤪</strong></p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owl-carousel">
+           <img class="card card-1" src="./images/BGlogo_alttab.png"/>
+           <img class="card card-2" src="./images/AltTab (1).jpg"/>
+           <img class="card card-3" src="./images/AltTab (2).jpg"/>
+           <img class="card card-4" src="./images/AltTab (3).jpg"/>
+           <img class="card card-5" src="./images/AltTab (4).jpg"/>
+           <img class="card card-6" src="./images/AltTab (5).jpg"/>
+           <img class="card card-7" src="./images/AltTab (6).jpg"/>
+           <img class="card card-8" src="./images/AltTab (7).jpg"/>
+           <img class="card card-9" src="./images/AltTab (8).jpg"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Contatos------->
+<section class="contact section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Contacte-nos</h3>
+          <span class="line"></span>
+          <p>Entre em contato conosco através do nosso e-mail caso precise esclarecer alguma dúvida ou receber atualizações sobre o desenvolvimento do MeuLoggie. </p>
+          <strong><p> E-mail: meuloggieapp@gmail.com </p></strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<hr>
+
+<!--Voltar ao topo-->
+<section> 
+  <div class="top"> 
+    <a class= "icon-top" href="#inicio" title="Voltar para o início"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+    </svg></a>
+  </div>
+</section>
+
+
+<!------- Fim ------->
 <footer class="footer-copy">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <p> MeuLoggie 2023 - Site desenvolvido por equipe AltTab  </p>
+        <p>MeuLoggie 2023 | Apoio: SENAI - Serviço Nacional de Aprendizagem Industrial</p>
       </div>
     </div>
   </div>
 </footer>
+<script src="./script.js"></script>
 </body>
 </html>
