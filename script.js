@@ -2,7 +2,7 @@ $(".carousel").owlCarousel({
   margin: 20,
   loop: true,
   autoplay: true,
-  autoplayTimeout: 2500,
+  autoplayTimeout: 1700,
   autoplayHoverPause: true,
   responsive: {
     0:{
@@ -22,3 +22,5 @@ $(".carousel").owlCarousel({
 
 //Fim javascript 
 // Framework Owl
+
+//MathMiller...
