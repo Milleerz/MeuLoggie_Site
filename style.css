@@ -12,7 +12,7 @@ a {
 	color:#ffffff;
 }
 a:hover {
-	color: #8c3de0; 
+	color: #c792ff; 
 }
 h1, h2, h3 {
 	font-weight: 700;
@@ -273,7 +273,7 @@ h6 {
 }
 .team {
 	margin-top: 60px;
-	background: #fafafa;
+	background: #ffffff; 
 }
 
 .gallery {
